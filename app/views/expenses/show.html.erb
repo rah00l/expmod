@@ -1,0 +1,28 @@
+<p>
+  <b>Cluster name:</b>
+  <%=h @expense.cluster_name %>
+</p>
+
+<p>
+  <b>Shop name:</b>
+  <%=h @expense.shop_name %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%=h @expense.date %>
+</p>
+
+<p>
+  <b>Total:</b>
+  <%=h @expense.total %>
+</p>
+
+<p>
+  <b>Adjustable total:</b>
+  <%=h @expense.adjustable_total %>
+</p>
+
+
+<%= link_to 'Edit', edit_expense_path(@expense) %> |
+<%= link_to 'Back', expenses_path %>

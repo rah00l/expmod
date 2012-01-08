@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @expense_perticuler.name %>
+</p>
+
+<p>
+  <b>Expense type:</b>
+  <%=h @expense_perticuler.expense_type %>
+</p>
+
+
+<%= link_to 'Edit', edit_expense_perticuler_path(@expense_perticuler) %> |
+<%= link_to 'Back', expense_perticulers_path %>

@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  expense_type: false
+
+two:
+  name: MyString
+  expense_type: false

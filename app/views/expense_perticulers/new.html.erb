@@ -1,0 +1,19 @@
+<h1>New expense_perticuler</h1>
+
+<% form_for(@expense_perticuler) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :expense_type %><br />
+    <%= f.check_box :expense_type %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', expense_perticulers_path %>
